@@ -49,8 +49,6 @@ const cars =
   {"id":37,"name":"Bugs Bunny","image":"(screenshot)","description":"A fun cartoon car.","rarity":["Common"]},
   {"id":38,"name":"Daffy Duck","image":"(screenshot)","description":"A quirky cartoon vehicle.","rarity":["Common"]},
   {"id":39,"name":"Coyote","image":"(screenshot)","description":"A clever themed vehicle.","rarity":["Common"]},
-
-  [
   {"id":40,"name":"Twin Mill","image":"https://1.hotwheelsunleashed.com/wp-content/uploads/2022/04/Veicolo_HOT-WHEELS%E2%84%A2-ScreenshotCollection_088_Camera_Marketing.png","description":"An iconic twin-engine Hot Wheels car.","rarity":["Legendary"]},
   {"id":41,"name":"Bone Shaker","image":"https://1.hotwheelsunleashed.com/wp-content/uploads/2022/04/Veicolo_HOT-WHEELS%E2%84%A2-ScreenshotCollection_084_Camera_Marketing.png","description":"A skull-themed hot rod with aggressive design.","rarity":["Legendary"]},
   {"id":42,"name":"Shark Bite","image":"https://1.hotwheelsunleashed.com/wp-content/uploads/2022/04/Veicolo_HOT-WHEELS%E2%84%A2-ScreenshotCollection_160_Camera_Marketing.png","description":"A shark-inspired racing car.","rarity":["Rare"]},
@@ -68,8 +66,6 @@ const cars =
   {"id":54,"name":"Phantom Racer","image":"https://1.hotwheelsunleashed.com/wp-content/uploads/2021/11/Veicolo_HOT-WHEELS%E2%84%A2-Thanksgiving-Pack3-1.png","description":"A ghost-like high-speed vehicle.","rarity":["Legendary"]},
   {"id":55,"name":"Turbo Beast","image":"https://1.hotwheelsunleashed.com/wp-content/uploads/2021/07/veichles-koenigsegg-jesko.png","description":"A beast-inspired turbo racer.","rarity":["Rare"]},
   {"id":56,"name":"Lightning Racer","image":"https://1.hotwheelsunleashed.com/wp-content/uploads/2021/07/veichles-audi-r8-spyder.png","description":"A lightning-fast electric-themed car.","rarity":["Legendary"]}
-]
-
 ];
 
 // 🎯 API Route
