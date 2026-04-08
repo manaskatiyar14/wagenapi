@@ -1,6 +1,8 @@
 const express = require("express");
+const cors = require("cors"); 
 const app = express();
 
+app.use(cors());
 
 const cars = 
   [
@@ -70,12 +72,14 @@ const cars =
   {"id":56,"name":"Lightning Racer","image":"https://1.hotwheelsunleashed.com/wp-content/uploads/2021/07/veichles-audi-r8-spyder.png","description":"A lightning-fast electric-themed car.","rarity":["Legendary"]}
 ];
 
-app.use(cors());
+
 app.get("/api/cars", (req, res) => {
   res.json(cars);
 });
 
 // 🚀 Start Server
-app.listen(3000, () => {
-  console.log("Server running on http://localhost:3000");
+const PORT = process.env.PORT || 3000;
+
+app.listen(PORT, () => {
+  console.log(`Server running on port ${PORT}`);
 });
