@@ -1,5 +1,7 @@
 const express = require("express");
 const app = express();
+
+
 const cars = 
   [
   {"id":1,"name":"Rodger Dodger","image":"https://1.hotwheelsunleashed.com/wp-content/uploads/2021/02/htw-veichles-rodger-dodger.png","description":"A classic Hot Wheels muscle car with a massive exposed engine and aggressive styling.","rarity":["Rare","Legendary"]},
@@ -68,7 +70,7 @@ const cars =
   {"id":56,"name":"Lightning Racer","image":"https://1.hotwheelsunleashed.com/wp-content/uploads/2021/07/veichles-audi-r8-spyder.png","description":"A lightning-fast electric-themed car.","rarity":["Legendary"]}
 ];
 
-// 🎯 API Route
+app.use(cors());
 app.get("/api/cars", (req, res) => {
   res.json(cars);
 });
